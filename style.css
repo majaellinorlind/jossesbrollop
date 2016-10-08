@@ -1,39 +1,14 @@
-body {
-	background: url(bilder/confetti.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; 
-}
-
-
-.container.fluid.start.one {
-	
-}
-
-.container.start.one {
-	width: 100%;
-	align-content: center;
-	text-align: center;
-	background-color: none;
-	margin-top: 1em;
+footer {
 	color: white;
-	font-family: "Josefin Sans", sans-serif;
-}
-
-.headername {
-	color: white;
-	font-family: "Sail", cursive;
-	font-size: 2em;
-	margin-top: 0;
-}
-
-.container.start.two {
+	font-family: "Amiko", sans-serif;
+	font-size: 0.9em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2em;
 	width: 100%;
-	align-content: center;
+	letter-spacing: 0.1em;
 	text-align: center;
-	background-color: none;
-	margin-top: 4em;
 }
 
 h1 {
@@ -44,20 +19,69 @@ h1 {
 	line-height: 70%;
 }
 
-.container.start.three {
+.bodystart {
+	background: url(bilder/confetti.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+.bodyall {
+	background: url(bilder/confetti.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+
+}
+
+.container.start.one {
 	width: 100%;
 	align-content: center;
 	text-align: center;
 	background-color: none;
+	margin-top: 1.5em;
+	color: white;
+	font-family: "Amiko", sans-serif;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
 }
 
-footer {
+.headername {
 	color: white;
-	font-family: "Josefin Sans", sans-serif;
-	font-size: 1em;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 2em;
+	font-family: "Sail", cursive;
+	font-size: 2em;
+	margin-top: 0;
+	letter-spacing: none;
+}
+
+.container.start.two {
 	width: 100%;
+	align-content: center;
+	text-align: center;
+	background-color: none;
+	margin-top: 4em;
+}
+
+.container.info.one {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	background-color: none;
+	margin-top: 1.5em;
+	color: white;
+	font-family: "Amiko", sans-serif;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+
+}
+
+.container.info.two {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	margin-top: 15em;
+	
 }
