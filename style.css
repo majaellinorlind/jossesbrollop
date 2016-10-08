@@ -1,14 +1,20 @@
+.footerstart {
+	color: white;
+	font-family: "Amiko", sans-serif;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-align: center;
+	margin-top: 10em;
+	background-color: none;
+}
+
 footer {
 	color: white;
 	font-family: "Amiko", sans-serif;
 	font-size: 0.9em;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 2em;
-	width: 100%;
 	letter-spacing: 0.1em;
 	text-align: center;
+	margin-top: 1.5em;
 }
 
 h1 {
@@ -59,8 +65,8 @@ h1 {
 
 .startintro {
 	text-align: center;
-	font-family: 'Reenie Beanie', cursive;
-	font-size: 2.2em;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.2em;
 	font-weight: lighter;
 	letter-spacing: 0.2em;
 	color: white;
@@ -99,4 +105,18 @@ h1 {
 	background-color: white;
 	margin-top: 15em;
 	
+}
+
+.text {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.2em;
+	color: black;
+}
+
+.infohead {
+	text-align: left;
+	color: #5EB7FF;
+	font-family: 'League Script', cursive;
+	font-size: 2em;
+	margin-bottom: 0;
 }
