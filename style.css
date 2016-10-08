@@ -1,0 +1,27 @@
+body {
+	background: url(bilder/ballonger.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+
+.container.fluid.start.one {
+	
+}
+
+.container.start.one {
+	width: 100%;
+	background-color: red;
+}
+
+.container.start.two {
+	width: 100%;
+	background-color: blue;
+}
+
+.container.start.three {
+	width: 100%;
+	background-color: green;
+}
