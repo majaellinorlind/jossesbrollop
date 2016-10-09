@@ -130,35 +130,6 @@ h1 {
 	
 }
 
-		$(document).ready(function(){
-        $('#addRow').click(function(){
-            // get the last person and html html
-            var $person = $('.person').last();
-            var person = $person.html();
-            // find the number
-            var index = person.indexOf('firstname');
-            var number = parseInt(person.substring(index+9,1));
-            var next = number+1;
-            // replace the number
-            // for firstname
-            person.replace('firstname'+number, 'firstname'+next);
-            // for lastname
-            person.replace('lastname'+number, 'lastname'+next);
-            // for gender
-            person.replace('gender'+number, 'gender'+next);
-            // insert the new person after the last one
-            $person.after($('<div class="person">'+person+'</div>'));            
-            // get the new person
-            var $new = $('.person').last();
-            // hide it
-            $new.hide();
-            // reset the values
-            $new.find('input, select').val('');
-            // fade it in
-            $new.slideDown();
-         });
-    })
-
 .text {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.2em;
@@ -203,10 +174,10 @@ h1 {
 	text-shadow: none;
 	-webkit-font-smoothing: antialiased;
 	-webkit-transition: opacity 100ms ease;
-    -moz-transition: opacity 100ms ease;
-    -o-transition: opacity 100ms ease;
-    -ms-transition: opacity 100ms ease;
-    transition: opacity 100ms ease;
+	-moz-transition: opacity 100ms ease;
+	-o-transition: opacity 100ms ease;
+	-ms-transition: opacity 100ms ease;
+	transition: opacity 100ms ease;
 }
 
 #instafeed a:hover .likes {

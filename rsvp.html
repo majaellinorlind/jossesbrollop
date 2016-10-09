@@ -12,21 +12,21 @@
 		<link href="https://fonts.googleapis.com/css?family=League+Script|Just+Another+Hand|Amiko|Quicksand|Cormorant+Garamond|Sail|Cinzel+Decorative|Didact+Gothic|Londrina+Outline|Oleo+Script+Swash+Caps|Stardos+Stencil|Josefin+Sans" rel="stylesheet">
 		<script type="text/javascript">
 			$(document).ready(function(){
-       		$('#addRow').click(function(){
-            	var $person = $('.person').last();
-            	var person = $person.html();
-            	var index = person.indexOf('firstname');
-            	var number = parseInt(person.substring(index+9,1));
-            	var next = number+1;
-            	person.replace('firstname'+number, 'firstname'+next);
-            	person.replace('lastname'+number, 'lastname'+next);
-            	$person.after($('<div class="person">'+person+'</div>'));            
-            	var $new = $('.person').last();
-            	$new.hide();
-            	$new.find('input, select').val('');
-            	$new.slideDown();
+			$('#addRow').click(function(){
+				var $person = $('.person').last();
+				var person = $person.html();
+				var index = person.indexOf('firstname');
+				var number = parseInt(person.substring(index+9,1));
+				var next = number+1;
+				person.replace('firstname'+number, 'firstname'+next);
+				person.replace('lastname'+number, 'lastname'+next);
+				$person.after($('<div class="person">'+person+'</div>'));            
+				var $new = $('.person').last();
+				$new.hide();
+				$new.find('input, select').val('');
+				$new.slideDown();
 			});
-       		})
+			})
 		</script>
 
 	</head>
