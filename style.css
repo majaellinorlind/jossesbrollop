@@ -127,7 +127,36 @@ h1 {
 	text-align: center;
 	background-color: white;
 	margin-top: 15em;
-	
+}
+
+.send {
+	background-color: #FF4F8D;
+	border: none;
+	width: 12em;
+	height: 3em;
+	text-align: center;
+	font-family: "Amiko", sans-serif;
+	font-size: 0.9em;
+}
+
+.send:hover {
+	background-color: #5EB7FF;
+}
+
+.form {
+	background: #FF4F8D;
+	background: -webkit-linear-gradient(#FF4F8D, #FF7A33);
+	background: -o-linear-gradient(#FF4F8D, #FF7A33);
+	background: -moz-linear-gradient(#FF4F8D, #FF7A33);
+	background: linear-gradient(#FF4F8D, #FF7A33);
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1em;
+	color: white;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	width: 80%;
+	text-align: center;
+	margin: auto;
 }
 
 .text {
