@@ -129,16 +129,6 @@ h1 {
 	margin-top: 15em;
 }
 
-.send {
-	background-color: #FF4F8D;
-	border: none;
-	width: 12em;
-	height: 3em;
-	text-align: center;
-	font-family: "Amiko", sans-serif;
-	font-size: 0.9em;
-}
-
 .send:hover {
 	background-color: #5EB7FF;
 }
@@ -157,6 +147,21 @@ h1 {
 	width: 80%;
 	text-align: center;
 	margin: auto;
+}
+
+.form.all {
+	font-family: "Amiko", sans-serif;
+	font-size: 0.8em;
+}
+
+.send {
+	background-color: #FF4F8D;
+	border: none;
+	width: 12em;
+	height: 3em;
+	text-align: center;
+	font-family: "Amiko", sans-serif;
+	font-size: 1em;
 }
 
 .text {
