@@ -108,6 +108,28 @@ h1 {
 	
 }
 
+.container.rsvp.one {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	background-color: none;
+	margin-top: 1.5em;
+	color: white;
+	font-family: "Amiko", sans-serif;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+
+}
+
+.container.rsvp.two {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+	margin-top: 15em;
+	
+}
+
 .text {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.2em;
