@@ -129,52 +129,6 @@ h1 {
 	margin-top: 15em;
 }
 
-.send:hover {
-	background-color: #5EB7FF;
-}
-
-.form {
-	background: #FF4F8D;
-	background: -webkit-linear-gradient(#FF4F8D, #FF7A33);
-	background: -o-linear-gradient(#FF4F8D, #FF7A33);
-	background: -moz-linear-gradient(#FF4F8D, #FF7A33);
-	background: linear-gradient(#FF4F8D, #FF7A33);
-	font-family: 'Cormorant Garamond', serif;
-	font-size: 1em;
-	color: white;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	width: 80%;
-	text-align: center;
-	margin: auto;
-}
-
-.form.all {
-	font-family: "Amiko", sans-serif;
-	font-size: 0.8em;
-}
-
-.send {
-	background-color: #FF4F8D;
-	border: none;
-	width: 12em;
-	height: 3em;
-	text-align: center;
-	font-family: "Amiko", sans-serif;
-	font-size: 1em;
-}
-
-#addRow {
-	color: white;
-	background-color: none;
-	font-size: 0.8em;
-}
-
-.formhead {
-	font-family: 'League Script', cursive;
-	font-size: 2.1em;
-}
-
 .text {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.2em;
@@ -228,3 +182,42 @@ h1 {
 #instafeed a:hover .likes {
 	opacity: 1;
 }
+
+.feedback-input {
+	background: transparent;
+	color: black;
+	font-family: "Amiko", sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	border:0.2em solid #FF4F8D;
+	transition: all 0.3s;
+	padding: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+	outline: 0;
+}
+
+.feedback-input:focus { 
+	border: 0.2em solid #5EB7FF; }
+
+textarea {
+	height: 13em;
+	line-height: 150%;
+	resize:vertical;
+}
+
+[type="submit"] {
+	font-family: "Amiko", sans-serif;
+	width: 100%;
+	background: #FF4F8D;
+	color: white;
+	font-size: 1em;
+	border: none;
+	cursor: auto;
+	padding-top: 1.1em;
+	padding-bottom: 0.8em;
+	margin-top: -4px;
+}
+
+[type="submit"]:hover { 
+	background:#5EB7FF; }
