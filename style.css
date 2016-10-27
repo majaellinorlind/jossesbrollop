@@ -208,7 +208,14 @@ input[type="textarea"] {
 	height: 2em;
 }
 
+input[type="radio"] {
+	display: none;
+}
 
+input[type="radio"] {
+
+	!!!!!
+}
 
 .infohead {
 	text-align: left;
