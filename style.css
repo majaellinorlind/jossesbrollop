@@ -171,14 +171,23 @@ h1 {
 }
 
 .formhead {
-	font-family: 'League Script', cursive;
-	font-size: 2.1em;
+	font-family: 'Sail', cursive;
+	font-size: 4em;
 }
 
 .text {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.2em;
 	color: black;
+}
+
+.span3 {
+	border: none;
+}
+
+input[type="text"] {
+	color: black;
+	font-family: 'Amiko', sans-serif;
 }
 
 .infohead {
