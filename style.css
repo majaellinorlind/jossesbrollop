@@ -181,14 +181,34 @@ h1 {
 	color: black;
 }
 
-.span3 {
-	border: none;
-}
-
 input[type="text"] {
 	color: black;
 	font-family: 'Amiko', sans-serif;
+	padding-left: 8px;
+	border: none;
+	width: 48%;
+	height: 2em;
 }
+
+input[type="email"] {
+	color: black;
+	font-family: 'Amiko', sans-serif;
+	padding-left: 8px;
+	border: none;
+	width: 97%;
+	height: 2em;
+}
+
+input[type="textarea"] {
+	color: black;
+	font-family: 'Amiko', sans-serif;
+	padding-left: 8px;
+	border: none;
+	width: 97%;
+	height: 2em;
+}
+
+
 
 .infohead {
 	text-align: left;
